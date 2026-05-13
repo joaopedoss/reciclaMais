@@ -47,7 +47,7 @@ O projeto utiliza **MySQL** com charset `utf8mb4`.
 
 - Java (JDK 11 ou superior)
 - MySQL 8.0+
-- IntelliJ IDEA (recomendado) ou outra IDE Java
+- IntelliJ IDEA (IDE utilizada) ou outra IDE Java
 
 ### 1. Clonar o repositório
 
@@ -89,14 +89,10 @@ Atualize as credenciais de conexão no arquivo de configuração do projeto com 
 
 ```
 reciclamais/
-├── .idea/                  # Configurações do IntelliJ IDEA
-│   ├── misc.xml
-│   ├── modules.xml
-│   ├── workspace.xml
-│   └── src.iml
 ├── src/                    # Código-fonte Java
 ├── reciclamais.sql         # Script de criação do banco de dados
 └── README.md
+└── .gitignore
 ```
 
 ---
