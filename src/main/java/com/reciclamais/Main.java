@@ -1,0 +1,15 @@
+package com.reciclamais;
+
+import com.reciclamais.view.LoginView;
+
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception ignored) {}
+
+        SwingUtilities.invokeLater(() -> new LoginView().setVisible(true));
+    }
+}
