@@ -91,8 +91,10 @@ Atualize as credenciais de conexão no arquivo de configuração do projeto com 
 reciclamais/
 ├── src/                    # Código-fonte Java
 ├── reciclamais.sql         # Script de criação do banco de dados
-└── README.md
+├── README.md
+├── pom.xml
 └── .gitignore
+
 ```
 
 ---
